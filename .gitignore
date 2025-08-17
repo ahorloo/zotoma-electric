@@ -1,0 +1,22 @@
+# deps & builds
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+.vercel/
+.render/
+# env & system
+.env*
+!.env.example
+.DS_Store
+.vscode/
+.idea/
+# logs & misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+*.tsbuildinfo
