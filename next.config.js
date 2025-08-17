@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',          // enables static export
   reactStrictMode: true,
-  // If you later use external images, add them here under 'images.remotePatterns'
-}
-
-module.exports = nextConfig
+  images: { unoptimized: true }, // safe for static hosting if you use next/image later
+};
+module.exports = nextConfig;
