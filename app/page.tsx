@@ -9,7 +9,7 @@ export default function HomePage() {
         <video
           className="absolute inset-0 h-full w-full object-cover"
           src="https://cdn.pixabay.com/video/2024/02/15/200682-913478723_large.mp4"
-          poster="/hero.jpg"       // optional: put a frame in /public/hero.jpg
+          poster="/hero.jpg?v=9"   // cache-bust so Chrome stops serving the old file
           autoPlay
           muted
           loop
